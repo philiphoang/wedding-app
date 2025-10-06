@@ -33,7 +33,7 @@ export default function RSVPPage() {
       </p>
 
       {!submitted ? (
-        <form onSubmit={handleSubmit} className="space-y-6">
+        <form onSubmit={handleSubmit} className="space-y-6 max-w-md mx-auto">
           {/* Full Name */}
           <div>
             <input

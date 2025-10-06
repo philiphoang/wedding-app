@@ -53,7 +53,8 @@ export default function Gallery() {
                 alt={`Wedding photo ${index + 1}`}
                 fill
                 className="object-cover"
-                sizes="(max-width: 768px) 50vw, 33vw"
+                sizes="(max-width: 640px) 50vw, (max-width: 768px) 100vw, 33vw"
+                quality={80}
                 priority={index < 3}
               />
             </div>
@@ -110,6 +111,8 @@ export default function Gallery() {
                 alt={`Wedding photo ${selectedIndex + 1}`}
                 fill
                 className="object-contain pointer-events-none"
+                sizes="100vw"
+                quality={85}
                 priority
               />
             </div>

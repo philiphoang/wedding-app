@@ -29,7 +29,7 @@ export default function Hero() {
           width={1920}
           height={1080}
           priority
-          className="w-full max-w-[80%] align-center h-auto object-cover object-top"
+          className="w-full md:max-w-[80%] h-auto object-cover object-top"
         />
       </div>
     </section>
