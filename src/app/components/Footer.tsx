@@ -11,17 +11,17 @@ export default function Footer() {
         {/* Middle: Menu (horizontal) */}
         <div>
             <div className="mt-10 flex flex-wrap justify-between md:justify-between gap-6 gap-y-4 text-3xl">
-                <Link href="/" className="no-underline hover:text-wedding-beige transition flex items-center gap-2">
-                Home <span className="text-wedding-beige">→</span>
+                <Link href="/" className="no-underline flex items-center gap-2">
+                Home →
                 </Link>
-                <Link href="/rsvp" className="no-underline hover:text-wedding-beige transition flex items-center gap-2">
-                RSVP <span className="text-wedding-beige">→</span>
+                <Link href="/gallery" className="no-underline flex items-center gap-2">
+                Gallery →
                 </Link>
-                <Link href="/schedule" className="no-underline hover:text-wedding-beige transition flex items-center gap-2">
-                Schedule <span className="text-wedding-beige">→</span>
+                <Link href="/rsvp" className="no-underline flex items-center gap-2">
+                RSVP →
                 </Link>
-                <Link href="/gallery" className="no-underline hover:text-wedding-beige transition flex items-center gap-2">
-                Gallery <span className="text-wedding-beige">→</span>
+                <Link href="/schedule" className="no-underline flex items-center gap-2">
+                Travel & Stay →
                 </Link>
             </div>
         </div>
@@ -32,7 +32,7 @@ export default function Footer() {
           <p className="text-2xl">
             <a
               href="mailto:philip.t.hoang@outlook.com"
-              className="no-underline hover:text-wedding-beige transition"
+              className="no-underline"
             >
               philip.t.hoang@outlook.com
             </a>
@@ -40,7 +40,7 @@ export default function Footer() {
           <p className="text-2xl">
             <a
               href="mailto:haunh.ftu@gmail.com"
-              className="no-underline hover:text-wedding-beige transition"
+              className="no-underline"
             >
               haunh.ftu@gmail.com
             </a>

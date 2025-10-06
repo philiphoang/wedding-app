@@ -12,7 +12,7 @@ export default function CeremonySection() {
             src="/images/IMG_2195.JPG"
             alt="Wedding Ceremony"
             fill
-            className="object-cover"
+            className="object-cover object-top"
           />
         </div>
 
@@ -23,8 +23,9 @@ export default function CeremonySection() {
             <h2 className="text-3xl md:text-4xl font-bold">Wedding</h2>
             <h3 className="text-2xl italic mb-3">Ceremony</h3>
             <div className="space-y-2 text-lg">
-              <div><strong>📍 Location:</strong> Son Tay, Hanoi, Vietnam</div>
-              <div><strong>📅 Date:</strong> 29 March, 2026</div>
+              <div><strong>Location:</strong> Son Tay, Hanoi, Vietnam</div>
+              <div><strong>Date:</strong> 29 March, 2026</div>
+              <div><strong>Time:</strong> 29 March, 2026</div>
             </div>
           </div>
 
@@ -36,8 +37,9 @@ export default function CeremonySection() {
             <h2 className="text-3xl md:text-4xl font-bold">Lễ cưới</h2>
             <h3 className="text-2xl italic mb-3">Hôn lễ</h3>
             <div className="space-y-2 text-lg">
-              <div><strong>📍 Địa điểm:</strong> Sơn Tây, Hà Nội, Việt Nam</div>
-              <div><strong>📅 Ngày:</strong> 29 Tháng 3, 2026</div>
+              <div><strong>Địa điểm:</strong> Sơn Tây, Hà Nội, Việt Nam</div>
+              <div><strong>Ngày:</strong> 29 Tháng 3, 2026</div>
+              <div><strong>Giờ:</strong> Sẽ được thông báo</div>
             </div>
           </div>
             <RSVPButton />

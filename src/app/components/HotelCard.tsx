@@ -41,7 +41,7 @@ const rooms = [
 
 export default function HotelCard() {
   return (
-    <div className="bg-white shadow-lg rounded-lg p-6 mb-8">
+    <div className="bg-white shadow-lg p-6 mb-8">
       <h2 className="text-2xl font-semibold mb-4">Accommodations / Lưu trú</h2>
       <p className="text-lg mb-4">
         Recommended hotel: <strong>Thảo viên Resort</strong>, Trung Sơn Trầm, Sơn Tây, Hà Nội
@@ -95,7 +95,7 @@ export default function HotelCard() {
           href="https://www.thaovienresort.com"
           target="_blank"
           rel="noopener noreferrer"
-          className="inline-block px-5 py-2 bg-gray-800 text-white rounded-lg shadow hover:bg-gray-700 transition"
+          className="inline-block px-5 py-2 bg-gray-800 text-white shadow hover:bg-gray-700 transition"
         >
           Visit Thảo viên Resort Website
         </a>

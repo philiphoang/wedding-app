@@ -73,13 +73,13 @@ export default function RSVPPage() {
           {/* Submit */}
           <button
             type="submit"
-            className="w-50 border border-black py-3 text-lg hover:bg-black hover:text-white transition"
+            className="inline-block px-10 py-5 text-2xl bg-white border-2 hover:bg-blue-500 hover:text-white shadow-lg no-underline"
           >
             Submit RSVP / Gửi phản hồi
           </button>
         </form>
       ) : (
-        <p className="text-xl text-green-600 font-semibold">
+        <p className="text-xl text-green-600">
           🎉 Thank you for your RSVP! <br />
           🎉 Cảm ơn bạn đã phản hồi!
         </p>

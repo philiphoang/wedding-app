@@ -10,7 +10,7 @@ export default function Hero() {
       {/* Text Section */}
       <div className="text-center py-12 px-4 bg-gradient-to-b from-wedding-cream to-transparent">
         <h1
-          className={`${alexBrus.className} text-wedding-blueDark text-4xl md:text-7xl mb-4`}
+          className={`${alexBrus.className} text-4xl md:text-7xl mb-4`}
         >
           Philip Thao Hoang <br/>&amp;<br/> Hau Hai Nguyen
         </h1>
@@ -29,7 +29,7 @@ export default function Hero() {
           width={1920}
           height={1080}
           priority
-          className="w-full max-w-[80%] align-center h-auto object-cover"
+          className="w-full max-w-[80%] align-center h-auto object-cover object-top"
         />
       </div>
     </section>

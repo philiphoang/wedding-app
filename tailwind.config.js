@@ -1,24 +1,21 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: [
-    "./src/**/*.{js,ts,jsx,tsx,mdx}",
-    "./components/**/*.{js,ts,jsx,tsx,mdx}",
-    "./app/**/*.{js,ts,jsx,tsx,mdx}",
+    "./src/pages/**/*.{js,ts,jsx,tsx,mdx}",
+    "./src/components/**/*.{js,ts,jsx,tsx,mdx}",
+    "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
     extend: {
-      colors: {
-        wedding: {
-          cream: "#F5EFE6",
-          beige: "#E8DFCA",
-          blueLight: "#AEBDCA",
-          blueDark: "#7895B2",
-        },
-      },
       fontFamily: {
-        heading: ["'Alex Brush'", "cursive"],
-        body: ["'Montserrat'", "sans-serif"],
+        heading: ['var(--font-alex-brush)'],
+        body: ['var(--font-montserrat)'],
       },
+      colors: {
+        'wedding-cream': '#F5F5DC',
+        'wedding-blueDark': '#003366',
+        'bg': '#FAF9F6',
+      }
     },
   },
   plugins: [],
