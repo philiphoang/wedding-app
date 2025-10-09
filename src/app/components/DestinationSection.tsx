@@ -15,8 +15,8 @@ export default function DestinationSection() {
           </div>
           <div className="space-y-2 text-lg">
             <div>
-              <strong>📍 Location:</strong> Nhà Hàng Baly, Son Tay, Hanoi, Vietnam
-              <div className="text-sm text-gray-600"><strong>📍 Địa điểm:</strong> Nhà Hàng Baly, Sơn Tây, Hà Nội, Việt Nam</div>
+              <strong>Location:</strong> Nhà Hàng Baly, Son Tay, Hanoi, Vietnam
+              <div className="text-sm text-gray-600"><strong>Địa điểm:</strong> Nhà Hàng Baly, Sơn Tây, Hà Nội, Việt Nam</div>
             </div>
           </div>
         </div>
