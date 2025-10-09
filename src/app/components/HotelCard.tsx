@@ -83,7 +83,7 @@ export default function HotelCard() {
         <p className="mt-2">🏨 Room rates include:</p>
         <ul className="list-disc list-inside">
           <li>Buffet breakfast at the restaurant</li>
-          <li>Complimentary swimming tickets (outdoor pool, hot mineral pool, indoor hot saltwater pool, sauna, herbal mineral jacuzzi, green tea & oriental herbal baths, ginger-salt foot bath, towels, shower gel)</li>
+          <li>Complimentary swimming tickets <br/>(outdoor pool, hot mineral pool, <br/>indoor hot saltwater pool, sauna, herbal mineral jacuzzi,<br/> green tea & oriental herbal baths, ginger-salt foot bath, towels, shower gel)</li>
           <li>Free tea & coffee in room for guests</li>
           <li>Free 2 bottles of mineral water in room</li>
           <li>Access to gym (small gym, limited equipment)</li>

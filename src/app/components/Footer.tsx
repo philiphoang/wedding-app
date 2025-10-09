@@ -20,7 +20,7 @@ export default function Footer() {
                 <Link href="/rsvp" className="no-underline flex items-center gap-2">
                 RSVP →
                 </Link>
-                <Link href="/schedule" className="no-underline flex items-center gap-2">
+                <Link href="/travel" className="no-underline flex items-center gap-2">
                 Travel & Stay →
                 </Link>
             </div>
