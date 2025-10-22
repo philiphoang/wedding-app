@@ -23,6 +23,7 @@ export default function DestinationSection() {
 						src="/images/engagement/engagement_2.JPG"
 						alt="Nhà Hàng Baly, Sơn Tây"
 						fill
+						sizes="(max-width: 768px) 100vw, 50vw"
 						className="object-cover"
 					/>
 				</div>

@@ -80,6 +80,7 @@ export default function RSVPPage() {
 						<Image
 							src="/images/tet/tet_10.JPG"
 							alt="Nhà Hàng Baly, Sơn Tây"
+							sizes="100vw"
 							fill
 							className="object-cover"
 						/>

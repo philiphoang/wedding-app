@@ -26,7 +26,9 @@ export default function TravelPage() {
 				<Image
 					src="/images/resort/thaovien_2.jpg"
 					alt="Nhà Hàng Baly, Sơn Tây"
+					sizes="100vw"
 					fill
+					className="object-cover object-contain"
 				/>
 			</div>
 			<HotelCard />

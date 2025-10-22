@@ -43,6 +43,7 @@ export default function WishlistPage() {
                     <Image
                         src="/images/tet/tet_2.JPG"
                         alt="Nhà Hàng Baly, Sơn Tây"
+                        sizes="100vw"
                         fill
                         className="object-cover"
                     />
