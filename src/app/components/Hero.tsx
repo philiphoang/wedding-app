@@ -7,7 +7,13 @@ const bitter = Bitter({ weight: "400", subsets: ["latin"] });
 export default function Hero() {
 	return (
 		<section className="w-full">
-			<div className="text-center py-12 px-4 bg-gradient-to-b from-wedding-cream to-transparent">
+			<div className="text-center py-22 px-4 bg-gradient-to-b from-wedding-cream to-transparent">
+				<p className="text-md italic">
+					We cordially invite you to the wedding of
+				</p>
+				<p className="text-sm italic">
+					Trân trọng kính mời Quý khách đến tham dự buổi tiệc thân mật, chung vui cùng gia đình chúng tôi
+				</p>
 				<h1 className={`${alexBrus.className} text-4xl md:text-7xl mb-4`}>
 					Philip Thao Hoang <br /> &amp; <br /> Hau Hai Nguyen
 				</h1>

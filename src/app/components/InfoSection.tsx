@@ -1,5 +1,5 @@
 import Image from "next/image";
-import RSVPButton from "./RSVPButtton";
+import RSVPButton from "./RSVPButton";
 
 export default function CeremonySection() {
 	return (

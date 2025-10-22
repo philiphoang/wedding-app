@@ -6,10 +6,10 @@ import InfoSection from "./components/InfoSection";
 export default function Home() {
 	return (
 		<main>
-			<Hero/>			
+			<Hero />
 			<InfoSection />
 			<DestinationSection />
-			<Footer/>
+			<Footer />
 		</main>
 	);
 }
